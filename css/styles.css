@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: rgb(219, 237, 251);
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: rgb(177, 205, 222);
+}
+
+#gauston{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 800px;
+}
+
+#quip_wrapper {
+    background-color: rgb(177, 205, 222);
+}
+#quip {
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    padding: 3rem 3rem 0rem 3rem;
+}
+
+span {
+    font-size: 2.5rem;
+    max-width: 500px;
+    margin: 0rem 3rem 0rem 3rem;
+    background-color: rgb(177, 205, 222);
+}
+
+.caption {
+    display: block;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
